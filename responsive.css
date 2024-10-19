@@ -1,0 +1,130 @@
+@media screen and (width<76em) {
+  .container {
+    width: 100%;
+  }
+
+  .fourth-row {
+    overflow: scroll;
+  }
+
+  @media screen and (width<=760px) {
+    .container {
+      width: 95%;
+      display: flex;
+      flex-direction: column;
+    }
+    .first-row {
+      width: 100%;
+      height: auto;
+      padding: 1rem 2rem;
+    }
+    .first-row h1 {
+      font-size: 1.9rem;
+      font-weight: 600;
+      line-height: 27px;
+    }
+    .first-row img {
+      width: 70%;
+    }
+
+    .third-col h1 {
+      font-size: 3.3rem;
+    }
+
+    .third-col span {
+      color: #ffcc69;
+    }
+
+    .third-col img {
+      width: 67%;
+    }
+
+    .second-row {
+      width: 100%;
+      height: auto;
+    }
+
+    .second-row h1 {
+      font-size: 2rem;
+      font-weight: 600;
+    }
+
+    .fourth-row {
+      text-align: center;
+      padding: 1rem;
+      height: auto;
+    }
+
+    .fourth-row h1 {
+      font-weight: 600;
+      font-size: 1.5rem;
+      margin-top: 0;
+    }
+    .fourth-row img {
+      width: 100%;
+      height: auto;
+    }
+
+    .sixth {
+      height: auto;
+      margin-top: 0rem;
+      padding: 1rem;
+      overflow: hidden;
+    }
+
+    .sixth img {
+      width: 100%;
+    }
+
+    .sixth h1 {
+      font-size: 1.5rem;
+    }
+
+    .seventh {
+      height: 230px;
+      margin-top: 0rem;
+      padding: 1.5rem;
+    }
+
+    .seventh h1 {
+      font-size: 1.5rem;
+      line-height: 24px;
+    }
+
+    .seventh img {
+      width: 80%;
+      margin-top: 1rem;
+    }
+
+    .eighth {
+      background: #fcebeb;
+
+      height: auto;
+      padding: 1rem;
+    }
+
+    .eighth p {
+      font-size: 1.3rem;
+    }
+
+    .eighth img {
+      width: 70%;
+    }
+
+    .fifth-col {
+      flex-direction: column;
+      padding: 1.5rem;
+      text-align: center;
+    }
+
+    .fifth-col img {
+      width: 100%;
+      height: auto;
+      margin-bottom: 2rem;
+    }
+
+    .fifth-col h1 {
+      font-weight: 400;
+    }
+  }
+}
